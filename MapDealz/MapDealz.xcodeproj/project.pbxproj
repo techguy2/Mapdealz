@@ -19,6 +19,7 @@
 		4496EF0C1F998784007DA279 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4496EF0A1F998784007DA279 /* LaunchScreen.storyboard */; };
 		4496EF1A1F9A3D98007DA279 /* LocationNotifyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496EF191F9A3D98007DA279 /* LocationNotifyManager.swift */; };
 		44A55F841FA58F150042EF19 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A55F831FA58F150042EF19 /* User.swift */; };
+		44A55F881FA92E3C0042EF19 /* UserInfo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44A55F861FA92E3C0042EF19 /* UserInfo.xcdatamodeld */; };
 		44C79A801FA3B8F10081C8AB /* OfferCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C79A7F1FA3B8F10081C8AB /* OfferCollectionCell.swift */; };
 		44C79A841FA3C0A60081C8AB /* CollectionDataSourceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C79A831FA3C0A60081C8AB /* CollectionDataSourceManager.swift */; };
 		44C79A861FA461470081C8AB /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C79A851FA461470081C8AB /* Offer.swift */; };
@@ -41,6 +42,7 @@
 		4496EF131F9998E7007DA279 /* ObjCBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCBridge.h; sourceTree = "<group>"; };
 		4496EF191F9A3D98007DA279 /* LocationNotifyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationNotifyManager.swift; sourceTree = "<group>"; };
 		44A55F831FA58F150042EF19 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		44A55F871FA92E3C0042EF19 /* OfferList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OfferList.xcdatamodel; sourceTree = "<group>"; };
 		44C79A7F1FA3B8F10081C8AB /* OfferCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferCollectionCell.swift; sourceTree = "<group>"; };
 		44C79A831FA3C0A60081C8AB /* CollectionDataSourceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionDataSourceManager.swift; sourceTree = "<group>"; };
 		44C79A851FA461470081C8AB /* Offer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 		4496EF001F998784007DA279 /* Mapdealz */ = {
 			isa = PBXGroup;
 			children = (
+				44A55F851FA92E070042EF19 /* Core Data */,
 				4496EF141F999F51007DA279 /* Model */,
 				4496EF151F999F5A007DA279 /* View */,
 				4496EF161F999F60007DA279 /* Controller */,
@@ -126,6 +129,14 @@
 				444CBDFD1F9A9862007C7815 /* MenuViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		44A55F851FA92E070042EF19 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				44A55F861FA92E3C0042EF19 /* UserInfo.xcdatamodeld */,
+			);
+			path = "Core Data";
 			sourceTree = "<group>";
 		};
 		44C79A871FA4C6DE0081C8AB /* Helper */ = {
@@ -281,6 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44A55F881FA92E3C0042EF19 /* UserInfo.xcdatamodeld in Sources */,
 				441B764F1FA10044001EAFA5 /* MenuView.swift in Sources */,
 				444CBDFC1F9A7128007C7815 /* LoginViewController.swift in Sources */,
 				44C79A861FA461470081C8AB /* Offer.swift in Sources */,
@@ -480,6 +492,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		44A55F861FA92E3C0042EF19 /* UserInfo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				44A55F871FA92E3C0042EF19 /* OfferList.xcdatamodel */,
+			);
+			currentVersion = 44A55F871FA92E3C0042EF19 /* OfferList.xcdatamodel */;
+			path = UserInfo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 4496EEF61F998784007DA279 /* Project object */;
 }
