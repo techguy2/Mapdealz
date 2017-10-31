@@ -1,0 +1,4 @@
+target "Mapdealz" do
+pod 'EstimoteSDK'
+pod 'GoogleSignIn'
+end

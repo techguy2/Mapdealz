@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F5F16AE9549C8DF2B9CD97C /* libPods-Mapdealz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1B12E42F0E055FDBA5CC929 /* libPods-Mapdealz.a */; };
+		441B764F1FA10044001EAFA5 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441B764E1FA10044001EAFA5 /* MenuView.swift */; };
+		444CBDFC1F9A7128007C7815 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444CBDFB1F9A7128007C7815 /* LoginViewController.swift */; };
+		444CBDFE1F9A9862007C7815 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444CBDFD1F9A9862007C7815 /* MenuViewController.swift */; };
+		444CBE001F9AF3A9007C7815 /* MenuSlideAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444CBDFF1F9AF3A9007C7815 /* MenuSlideAnimation.swift */; };
+		4496EF021F998784007DA279 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496EF011F998784007DA279 /* AppDelegate.swift */; };
+		4496EF041F998784007DA279 /* OfferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496EF031F998784007DA279 /* OfferViewController.swift */; };
+		4496EF071F998784007DA279 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4496EF051F998784007DA279 /* Main.storyboard */; };
+		4496EF091F998784007DA279 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4496EF081F998784007DA279 /* Assets.xcassets */; };
+		4496EF0C1F998784007DA279 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4496EF0A1F998784007DA279 /* LaunchScreen.storyboard */; };
+		4496EF1A1F9A3D98007DA279 /* LocationNotifyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496EF191F9A3D98007DA279 /* LocationNotifyManager.swift */; };
+		44A55F841FA58F150042EF19 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A55F831FA58F150042EF19 /* User.swift */; };
+		44C79A801FA3B8F10081C8AB /* OfferCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C79A7F1FA3B8F10081C8AB /* OfferCollectionCell.swift */; };
+		44C79A841FA3C0A60081C8AB /* CollectionDataSourceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C79A831FA3C0A60081C8AB /* CollectionDataSourceManager.swift */; };
+		44C79A861FA461470081C8AB /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C79A851FA461470081C8AB /* Offer.swift */; };
+		44C79A891FA4D60E0081C8AB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44C79A881FA4D60D0081C8AB /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17A35DE84E18CB84D8826999 /* Pods-Mapdealz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mapdealz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mapdealz/Pods-Mapdealz.debug.xcconfig"; sourceTree = "<group>"; };
+		441B764E1FA10044001EAFA5 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		444CBDFB1F9A7128007C7815 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		444CBDFD1F9A9862007C7815 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		444CBDFF1F9AF3A9007C7815 /* MenuSlideAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSlideAnimation.swift; sourceTree = "<group>"; };
+		4496EEFE1F998784007DA279 /* Mapdealz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mapdealz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4496EF011F998784007DA279 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4496EF031F998784007DA279 /* OfferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferViewController.swift; sourceTree = "<group>"; };
+		4496EF061F998784007DA279 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4496EF081F998784007DA279 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4496EF0B1F998784007DA279 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4496EF0D1F998784007DA279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4496EF131F9998E7007DA279 /* ObjCBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCBridge.h; sourceTree = "<group>"; };
+		4496EF191F9A3D98007DA279 /* LocationNotifyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationNotifyManager.swift; sourceTree = "<group>"; };
+		44A55F831FA58F150042EF19 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		44C79A7F1FA3B8F10081C8AB /* OfferCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferCollectionCell.swift; sourceTree = "<group>"; };
+		44C79A831FA3C0A60081C8AB /* CollectionDataSourceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionDataSourceManager.swift; sourceTree = "<group>"; };
+		44C79A851FA461470081C8AB /* Offer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
+		44C79A881FA4D60D0081C8AB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A62A517448ECF4A958F1D5FC /* Pods-Mapdealz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mapdealz.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mapdealz/Pods-Mapdealz.release.xcconfig"; sourceTree = "<group>"; };
+		F1B12E42F0E055FDBA5CC929 /* libPods-Mapdealz.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Mapdealz.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4496EEFB1F998784007DA279 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F5F16AE9549C8DF2B9CD97C /* libPods-Mapdealz.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4496EEF51F998784007DA279 = {
+			isa = PBXGroup;
+			children = (
+				4496EF001F998784007DA279 /* Mapdealz */,
+				4496EEFF1F998784007DA279 /* Products */,
+				D21F96AB26506A1E4592A03E /* Pods */,
+				F701EFCB874A6562CD419A3C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4496EEFF1F998784007DA279 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4496EEFE1F998784007DA279 /* Mapdealz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4496EF001F998784007DA279 /* Mapdealz */ = {
+			isa = PBXGroup;
+			children = (
+				4496EF141F999F51007DA279 /* Model */,
+				4496EF151F999F5A007DA279 /* View */,
+				4496EF161F999F60007DA279 /* Controller */,
+				44C79A871FA4C6DE0081C8AB /* Helper */,
+				4496EF011F998784007DA279 /* AppDelegate.swift */,
+				4496EF051F998784007DA279 /* Main.storyboard */,
+				4496EF081F998784007DA279 /* Assets.xcassets */,
+				4496EF0A1F998784007DA279 /* LaunchScreen.storyboard */,
+				4496EF0D1F998784007DA279 /* Info.plist */,
+				44C79A881FA4D60D0081C8AB /* GoogleService-Info.plist */,
+				4496EF131F9998E7007DA279 /* ObjCBridge.h */,
+			);
+			path = Mapdealz;
+			sourceTree = "<group>";
+		};
+		4496EF141F999F51007DA279 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4496EF191F9A3D98007DA279 /* LocationNotifyManager.swift */,
+				444CBDFF1F9AF3A9007C7815 /* MenuSlideAnimation.swift */,
+				44C79A831FA3C0A60081C8AB /* CollectionDataSourceManager.swift */,
+				44C79A851FA461470081C8AB /* Offer.swift */,
+				44A55F831FA58F150042EF19 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4496EF151F999F5A007DA279 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				441B764E1FA10044001EAFA5 /* MenuView.swift */,
+				44C79A7F1FA3B8F10081C8AB /* OfferCollectionCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4496EF161F999F60007DA279 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4496EF031F998784007DA279 /* OfferViewController.swift */,
+				444CBDFB1F9A7128007C7815 /* LoginViewController.swift */,
+				444CBDFD1F9A9862007C7815 /* MenuViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		44C79A871FA4C6DE0081C8AB /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		D21F96AB26506A1E4592A03E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17A35DE84E18CB84D8826999 /* Pods-Mapdealz.debug.xcconfig */,
+				A62A517448ECF4A958F1D5FC /* Pods-Mapdealz.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F701EFCB874A6562CD419A3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1B12E42F0E055FDBA5CC929 /* libPods-Mapdealz.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4496EEFD1F998784007DA279 /* Mapdealz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4496EF101F998784007DA279 /* Build configuration list for PBXNativeTarget "Mapdealz" */;
+			buildPhases = (
+				B9BB6EF879E3A449F1CC2B4A /* [CP] Check Pods Manifest.lock */,
+				4496EEFA1F998784007DA279 /* Sources */,
+				4496EEFB1F998784007DA279 /* Frameworks */,
+				4496EEFC1F998784007DA279 /* Resources */,
+				2463E750466C28F8FE4B4E4B /* [CP] Embed Pods Frameworks */,
+				B4A9821991568CD8CABDA493 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mapdealz;
+			productName = Mapdealz;
+			productReference = 4496EEFE1F998784007DA279 /* Mapdealz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4496EEF61F998784007DA279 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = soeb;
+				TargetAttributes = {
+					4496EEFD1F998784007DA279 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 4496EEF91F998784007DA279 /* Build configuration list for PBXProject "Mapdealz" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4496EEF51F998784007DA279;
+			productRefGroup = 4496EEFF1F998784007DA279 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4496EEFD1F998784007DA279 /* Mapdealz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4496EEFC1F998784007DA279 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4496EF0C1F998784007DA279 /* LaunchScreen.storyboard in Resources */,
+				44C79A891FA4D60E0081C8AB /* GoogleService-Info.plist in Resources */,
+				4496EF091F998784007DA279 /* Assets.xcassets in Resources */,
+				4496EF071F998784007DA279 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2463E750466C28F8FE4B4E4B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mapdealz/Pods-Mapdealz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4A9821991568CD8CABDA493 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mapdealz/Pods-Mapdealz-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9BB6EF879E3A449F1CC2B4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4496EEFA1F998784007DA279 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				441B764F1FA10044001EAFA5 /* MenuView.swift in Sources */,
+				444CBDFC1F9A7128007C7815 /* LoginViewController.swift in Sources */,
+				44C79A861FA461470081C8AB /* Offer.swift in Sources */,
+				44C79A841FA3C0A60081C8AB /* CollectionDataSourceManager.swift in Sources */,
+				444CBE001F9AF3A9007C7815 /* MenuSlideAnimation.swift in Sources */,
+				444CBDFE1F9A9862007C7815 /* MenuViewController.swift in Sources */,
+				44C79A801FA3B8F10081C8AB /* OfferCollectionCell.swift in Sources */,
+				4496EF041F998784007DA279 /* OfferViewController.swift in Sources */,
+				4496EF021F998784007DA279 /* AppDelegate.swift in Sources */,
+				4496EF1A1F9A3D98007DA279 /* LocationNotifyManager.swift in Sources */,
+				44A55F841FA58F150042EF19 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4496EF051F998784007DA279 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4496EF061F998784007DA279 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4496EF0A1F998784007DA279 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4496EF0B1F998784007DA279 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4496EF0E1F998784007DA279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4496EF0F1F998784007DA279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4496EF111F998784007DA279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17A35DE84E18CB84D8826999 /* Pods-Mapdealz.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AQUUD282KH;
+				INFOPLIST_FILE = Mapdealz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eleisure.mapdealz.Mapdealz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_NAME}/ObjCBridge.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4496EF121F998784007DA279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A62A517448ECF4A958F1D5FC /* Pods-Mapdealz.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AQUUD282KH;
+				INFOPLIST_FILE = Mapdealz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eleisure.mapdealz.Mapdealz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_NAME}/ObjCBridge.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4496EEF91F998784007DA279 /* Build configuration list for PBXProject "Mapdealz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4496EF0E1F998784007DA279 /* Debug */,
+				4496EF0F1F998784007DA279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4496EF101F998784007DA279 /* Build configuration list for PBXNativeTarget "Mapdealz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4496EF111F998784007DA279 /* Debug */,
+				4496EF121F998784007DA279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4496EEF61F998784007DA279 /* Project object */;
+}

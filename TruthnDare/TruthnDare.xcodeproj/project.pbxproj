@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44D407DA1E4D69AC00D91654 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D407D91E4D69AC00D91654 /* AppDelegate.swift */; };
+		44D407DC1E4D69AD00D91654 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D407DB1E4D69AD00D91654 /* ViewController.swift */; };
+		44D407DF1E4D69AD00D91654 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44D407DD1E4D69AD00D91654 /* Main.storyboard */; };
+		44D407E11E4D69AD00D91654 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44D407E01E4D69AD00D91654 /* Assets.xcassets */; };
+		44D407E41E4D69AD00D91654 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44D407E21E4D69AD00D91654 /* LaunchScreen.storyboard */; };
+		44D407EF1E4D69AD00D91654 /* TruthnDareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D407EE1E4D69AD00D91654 /* TruthnDareTests.swift */; };
+		44D407FA1E4D69AD00D91654 /* TruthnDareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D407F91E4D69AD00D91654 /* TruthnDareUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44D407EB1E4D69AD00D91654 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44D407CE1E4D69AC00D91654 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44D407D51E4D69AC00D91654;
+			remoteInfo = TruthnDare;
+		};
+		44D407F61E4D69AD00D91654 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44D407CE1E4D69AC00D91654 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44D407D51E4D69AC00D91654;
+			remoteInfo = TruthnDare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44D407D61E4D69AC00D91654 /* TruthnDare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TruthnDare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44D407D91E4D69AC00D91654 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44D407DB1E4D69AD00D91654 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44D407DE1E4D69AD00D91654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44D407E01E4D69AD00D91654 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44D407E31E4D69AD00D91654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44D407E51E4D69AD00D91654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44D407EA1E4D69AD00D91654 /* TruthnDareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TruthnDareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44D407EE1E4D69AD00D91654 /* TruthnDareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruthnDareTests.swift; sourceTree = "<group>"; };
+		44D407F01E4D69AD00D91654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44D407F51E4D69AD00D91654 /* TruthnDareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TruthnDareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44D407F91E4D69AD00D91654 /* TruthnDareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruthnDareUITests.swift; sourceTree = "<group>"; };
+		44D407FB1E4D69AD00D91654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44D407D31E4D69AC00D91654 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44D407E71E4D69AD00D91654 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44D407F21E4D69AD00D91654 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44D407CD1E4D69AC00D91654 = {
+			isa = PBXGroup;
+			children = (
+				44D407D81E4D69AC00D91654 /* TruthnDare */,
+				44D407ED1E4D69AD00D91654 /* TruthnDareTests */,
+				44D407F81E4D69AD00D91654 /* TruthnDareUITests */,
+				44D407D71E4D69AC00D91654 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44D407D71E4D69AC00D91654 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44D407D61E4D69AC00D91654 /* TruthnDare.app */,
+				44D407EA1E4D69AD00D91654 /* TruthnDareTests.xctest */,
+				44D407F51E4D69AD00D91654 /* TruthnDareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44D407D81E4D69AC00D91654 /* TruthnDare */ = {
+			isa = PBXGroup;
+			children = (
+				44D407D91E4D69AC00D91654 /* AppDelegate.swift */,
+				44D407DB1E4D69AD00D91654 /* ViewController.swift */,
+				44D407DD1E4D69AD00D91654 /* Main.storyboard */,
+				44D407E01E4D69AD00D91654 /* Assets.xcassets */,
+				44D407E21E4D69AD00D91654 /* LaunchScreen.storyboard */,
+				44D407E51E4D69AD00D91654 /* Info.plist */,
+			);
+			path = TruthnDare;
+			sourceTree = "<group>";
+		};
+		44D407ED1E4D69AD00D91654 /* TruthnDareTests */ = {
+			isa = PBXGroup;
+			children = (
+				44D407EE1E4D69AD00D91654 /* TruthnDareTests.swift */,
+				44D407F01E4D69AD00D91654 /* Info.plist */,
+			);
+			path = TruthnDareTests;
+			sourceTree = "<group>";
+		};
+		44D407F81E4D69AD00D91654 /* TruthnDareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				44D407F91E4D69AD00D91654 /* TruthnDareUITests.swift */,
+				44D407FB1E4D69AD00D91654 /* Info.plist */,
+			);
+			path = TruthnDareUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44D407D51E4D69AC00D91654 /* TruthnDare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44D407FE1E4D69AD00D91654 /* Build configuration list for PBXNativeTarget "TruthnDare" */;
+			buildPhases = (
+				44D407D21E4D69AC00D91654 /* Sources */,
+				44D407D31E4D69AC00D91654 /* Frameworks */,
+				44D407D41E4D69AC00D91654 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TruthnDare;
+			productName = TruthnDare;
+			productReference = 44D407D61E4D69AC00D91654 /* TruthnDare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44D407E91E4D69AD00D91654 /* TruthnDareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44D408011E4D69AD00D91654 /* Build configuration list for PBXNativeTarget "TruthnDareTests" */;
+			buildPhases = (
+				44D407E61E4D69AD00D91654 /* Sources */,
+				44D407E71E4D69AD00D91654 /* Frameworks */,
+				44D407E81E4D69AD00D91654 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44D407EC1E4D69AD00D91654 /* PBXTargetDependency */,
+			);
+			name = TruthnDareTests;
+			productName = TruthnDareTests;
+			productReference = 44D407EA1E4D69AD00D91654 /* TruthnDareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		44D407F41E4D69AD00D91654 /* TruthnDareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44D408041E4D69AD00D91654 /* Build configuration list for PBXNativeTarget "TruthnDareUITests" */;
+			buildPhases = (
+				44D407F11E4D69AD00D91654 /* Sources */,
+				44D407F21E4D69AD00D91654 /* Frameworks */,
+				44D407F31E4D69AD00D91654 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44D407F71E4D69AD00D91654 /* PBXTargetDependency */,
+			);
+			name = TruthnDareUITests;
+			productName = TruthnDareUITests;
+			productReference = 44D407F51E4D69AD00D91654 /* TruthnDareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44D407CE1E4D69AC00D91654 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Soeb;
+				TargetAttributes = {
+					44D407D51E4D69AC00D91654 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AQUUD282KH;
+						ProvisioningStyle = Automatic;
+					};
+					44D407E91E4D69AD00D91654 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AQUUD282KH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 44D407D51E4D69AC00D91654;
+					};
+					44D407F41E4D69AD00D91654 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AQUUD282KH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 44D407D51E4D69AC00D91654;
+					};
+				};
+			};
+			buildConfigurationList = 44D407D11E4D69AC00D91654 /* Build configuration list for PBXProject "TruthnDare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44D407CD1E4D69AC00D91654;
+			productRefGroup = 44D407D71E4D69AC00D91654 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44D407D51E4D69AC00D91654 /* TruthnDare */,
+				44D407E91E4D69AD00D91654 /* TruthnDareTests */,
+				44D407F41E4D69AD00D91654 /* TruthnDareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44D407D41E4D69AC00D91654 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44D407E41E4D69AD00D91654 /* LaunchScreen.storyboard in Resources */,
+				44D407E11E4D69AD00D91654 /* Assets.xcassets in Resources */,
+				44D407DF1E4D69AD00D91654 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44D407E81E4D69AD00D91654 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44D407F31E4D69AD00D91654 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44D407D21E4D69AC00D91654 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44D407DC1E4D69AD00D91654 /* ViewController.swift in Sources */,
+				44D407DA1E4D69AC00D91654 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44D407E61E4D69AD00D91654 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44D407EF1E4D69AD00D91654 /* TruthnDareTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44D407F11E4D69AD00D91654 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44D407FA1E4D69AD00D91654 /* TruthnDareUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44D407EC1E4D69AD00D91654 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44D407D51E4D69AC00D91654 /* TruthnDare */;
+			targetProxy = 44D407EB1E4D69AD00D91654 /* PBXContainerItemProxy */;
+		};
+		44D407F71E4D69AD00D91654 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44D407D51E4D69AC00D91654 /* TruthnDare */;
+			targetProxy = 44D407F61E4D69AD00D91654 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44D407DD1E4D69AD00D91654 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44D407DE1E4D69AD00D91654 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44D407E21E4D69AD00D91654 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44D407E31E4D69AD00D91654 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44D407FC1E4D69AD00D91654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44D407FD1E4D69AD00D91654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44D407FF1E4D69AD00D91654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AQUUD282KH;
+				INFOPLIST_FILE = TruthnDare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = First.TruthnDare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		44D408001E4D69AD00D91654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AQUUD282KH;
+				INFOPLIST_FILE = TruthnDare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = First.TruthnDare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		44D408021E4D69AD00D91654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AQUUD282KH;
+				INFOPLIST_FILE = TruthnDareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = First.TruthnDareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TruthnDare.app/TruthnDare";
+			};
+			name = Debug;
+		};
+		44D408031E4D69AD00D91654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AQUUD282KH;
+				INFOPLIST_FILE = TruthnDareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = First.TruthnDareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TruthnDare.app/TruthnDare";
+			};
+			name = Release;
+		};
+		44D408051E4D69AD00D91654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = AQUUD282KH;
+				INFOPLIST_FILE = TruthnDareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = First.TruthnDareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TruthnDare;
+			};
+			name = Debug;
+		};
+		44D408061E4D69AD00D91654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = AQUUD282KH;
+				INFOPLIST_FILE = TruthnDareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = First.TruthnDareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TruthnDare;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44D407D11E4D69AC00D91654 /* Build configuration list for PBXProject "TruthnDare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44D407FC1E4D69AD00D91654 /* Debug */,
+				44D407FD1E4D69AD00D91654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44D407FE1E4D69AD00D91654 /* Build configuration list for PBXNativeTarget "TruthnDare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44D407FF1E4D69AD00D91654 /* Debug */,
+				44D408001E4D69AD00D91654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		44D408011E4D69AD00D91654 /* Build configuration list for PBXNativeTarget "TruthnDareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44D408021E4D69AD00D91654 /* Debug */,
+				44D408031E4D69AD00D91654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		44D408041E4D69AD00D91654 /* Build configuration list for PBXNativeTarget "TruthnDareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44D408051E4D69AD00D91654 /* Debug */,
+				44D408061E4D69AD00D91654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44D407CE1E4D69AC00D91654 /* Project object */;
+}

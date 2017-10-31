@@ -1,0 +1,171 @@
+CURRENT STATS:
+System memory usage:
+  SOff/Norm: 1 samples:
+    Cached: 184MB min, 184MB avg, 184MB max
+    Free: 24MB min, 24MB avg, 24MB max
+    ZRam: 53MB min, 53MB avg, 53MB max
+    Kernel: 157MB min, 157MB avg, 157MB max
+    Native: 22MB min, 22MB avg, 22MB max
+  SOn /Norm: 2 samples:
+    Cached: 168MB min, 175MB avg, 183MB max
+    Free: 19MB min, 22MB avg, 25MB max
+    ZRam: 52MB min, 55MB avg, 58MB max
+    Kernel: 157MB min, 157MB avg, 158MB max
+    Native: 21MB min, 22MB avg, 22MB max
+
+Per-Package Stats:
+  * com.google.android.exoplayer2.demo / u0a124 / v2101:
+      * com.google.android.exoplayer2.demo / u0a124 / v2101:
+               TOTAL: 55% (17MB-27MB-32MB/14MB-24MB-30MB over 30)
+                 Top: 55% (17MB-27MB-32MB/14MB-24MB-30MB over 30)
+          (Last Act): 44% (3.0MB-3.6MB-4.1MB/1.5MB-2.1MB-2.4MB over 3)
+
+Summary:
+  * com.google.android.exoplayer2.demo / u0a124 / v2101:
+           TOTAL: 55% (17MB-27MB-32MB/14MB-24MB-30MB over 30)
+             Top: 55% (17MB-27MB-32MB/14MB-24MB-30MB over 30)
+      (Last Act): 44% (3.0MB-3.6MB-4.1MB/1.5MB-2.1MB-2.4MB over 3)
+
+Run time Stats:
+  SOff/Norm: +56m48s626ms
+  SOn /Norm: +32m26s541ms (running)
+      TOTAL: +1h29m15s167ms
+
+Memory usage:
+  Kernel : 157MB (24 samples)
+  Native : 22MB (24 samples)
+  Persist: 123MB (50 samples)
+  Top    : 26MB (72 samples)
+  ImpFg  : 4.2MB (175 samples)
+  ImpBg  : 33MB (185 samples)
+  Service: 28MB (353 samples)
+  Receivr: 316KB (299 samples)
+  Home   : 17MB (5 samples)
+  LastAct: 7.4MB (6 samples)
+  CchAct : 17MB (7 samples)
+  CchEmty: 217MB (189 samples)
+  Cached : 178MB (24 samples)
+  Free   : 23MB (24 samples)
+  Z-Ram  : 55MB (24 samples)
+  TOTAL  : 0.89GB
+  ServRst: 1.6KB (17 samples)
+
+          Start time: 2017-01-26 08:16:29
+  Total elapsed time: +2h1m52s915ms (partial) libart.so
+
+AGGREGATED OVER LAST 24 HOURS:
+System memory usage:
+  SOff/Norm: 2 samples:
+    Cached: 184MB min, 233MB avg, 281MB max
+    Free: 24MB min, 25MB avg, 27MB max
+    ZRam: 46MB min, 49MB avg, 53MB max
+    Kernel: 152MB min, 154MB avg, 157MB max
+    Native: 20MB min, 21MB avg, 22MB max
+       Mod : 1 samples:
+    Cached: 286MB min, 286MB avg, 286MB max
+    Free: 54MB min, 54MB avg, 54MB max
+    ZRam: 46MB min, 46MB avg, 46MB max
+    Kernel: 154MB min, 154MB avg, 154MB max
+    Native: 21MB min, 21MB avg, 21MB max
+  SOn /Norm: 2 samples:
+    Cached: 168MB min, 175MB avg, 183MB max
+    Free: 19MB min, 22MB avg, 25MB max
+    ZRam: 52MB min, 55MB avg, 58MB max
+    Kernel: 157MB min, 157MB avg, 158MB max
+    Native: 21MB min, 22MB avg, 22MB max
+
+Per-Package Stats:
+  * com.google.android.exoplayer2.demo / u0a124 / v2101:
+      * com.google.android.exoplayer2.demo / u0a124 / v2101:
+               TOTAL: 7.8% (17MB-27MB-32MB/14MB-24MB-30MB over 30)
+                 Top: 7.8% (17MB-27MB-32MB/14MB-24MB-30MB over 30)
+          (Last Act): 92% (3.0MB-9.3MB-14MB/1.5MB-7.1MB-11MB over 24)
+
+Summary:
+  * com.google.android.exoplayer2.demo / u0a124 / v2101:
+           TOTAL: 7.8% (17MB-27MB-32MB/14MB-24MB-30MB over 30)
+             Top: 7.8% (17MB-27MB-32MB/14MB-24MB-30MB over 30)
+      (Last Act): 92% (3.0MB-9.3MB-14MB/1.5MB-7.1MB-11MB over 24)
+
+Run time Stats:
+  SOff/Norm: +9h44m16s945ms
+       Mod : +12m53s677ms
+  SOn /Norm: +32m26s580ms
+      TOTAL: +10h29m37s202ms
+
+Memory usage:
+  Kernel : 155MB (40 samples)
+  Native : 21MB (40 samples)
+  Persist: 130MB (245 samples)
+  Top    : 27MB (610 samples)
+  ImpFg  : 3.9MB (1028 samples)
+  ImpBg  : 33MB (1122 samples)
+  Service: 15MB (1559 samples)
+  Receivr: 210KB (1280 samples)
+  Home   : 2.4MB (5 samples)
+  LastAct: 10MB (27 samples)
+  CchAct : 17MB (28 samples)
+  CchEmty: 238MB (970 samples)
+  Cached : 220MB (40 samples)
+  Free   : 30MB (40 samples)
+  Z-Ram  : 51MB (40 samples)
+  TOTAL  : 0.93GB
+  ServRst: 558 (110 samples)
+
+          Start time: 2017-01-25 11:40:25
+  Total elapsed time: +22h37m56s489ms (partial) libart.so
+
+AGGREGATED OVER LAST 3 HOURS:
+System memory usage:
+  SOff/Norm: 1 samples:
+    Cached: 184MB min, 184MB avg, 184MB max
+    Free: 24MB min, 24MB avg, 24MB max
+    ZRam: 53MB min, 53MB avg, 53MB max
+    Kernel: 157MB min, 157MB avg, 157MB max
+    Native: 22MB min, 22MB avg, 22MB max
+  SOn /Norm: 2 samples:
+    Cached: 168MB min, 175MB avg, 183MB max
+    Free: 19MB min, 22MB avg, 25MB max
+    ZRam: 52MB min, 55MB avg, 58MB max
+    Kernel: 157MB min, 157MB avg, 158MB max
+    Native: 21MB min, 22MB avg, 22MB max
+
+Per-Package Stats:
+  * com.google.android.exoplayer2.demo / u0a124 / v2101:
+      * com.google.android.exoplayer2.demo / u0a124 / v2101:
+               TOTAL: 55% (17MB-27MB-32MB/14MB-24MB-30MB over 30)
+                 Top: 55% (17MB-27MB-32MB/14MB-24MB-30MB over 30)
+          (Last Act): 44% (3.0MB-3.6MB-4.1MB/1.5MB-2.1MB-2.4MB over 3)
+
+Summary:
+  * com.google.android.exoplayer2.demo / u0a124 / v2101:
+           TOTAL: 55% (17MB-27MB-32MB/14MB-24MB-30MB over 30)
+             Top: 55% (17MB-27MB-32MB/14MB-24MB-30MB over 30)
+      (Last Act): 44% (3.0MB-3.6MB-4.1MB/1.5MB-2.1MB-2.4MB over 3)
+
+Run time Stats:
+  SOff/Norm: +56m48s626ms
+  SOn /Norm: +32m26s704ms
+      TOTAL: +1h29m15s330ms
+
+Memory usage:
+  Kernel : 157MB (24 samples)
+  Native : 22MB (24 samples)
+  Persist: 123MB (50 samples)
+  Top    : 26MB (72 samples)
+  ImpFg  : 4.2MB (175 samples)
+  ImpBg  : 33MB (185 samples)
+  Service: 28MB (353 samples)
+  Receivr: 316KB (299 samples)
+  Home   : 17MB (5 samples)
+  LastAct: 7.4MB (6 samples)
+  CchAct : 17MB (7 samples)
+  CchEmty: 217MB (189 samples)
+  Cached : 178MB (24 samples)
+  Free   : 23MB (24 samples)
+  Z-Ram  : 55MB (24 samples)
+  TOTAL  : 0.89GB
+  ServRst: 1.6KB (17 samples)
+
+          Start time: 2017-01-26 08:16:29
+  Total elapsed time: +2h1m53s39ms (partial) libart.so
